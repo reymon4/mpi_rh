@@ -1,0 +1,4 @@
+C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-release/CMakeFiles/mpi01.dir
+C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-release/CMakeFiles/matrices_multi.dir
+C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-release/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,384 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilador de optimización de C/C++ de Microsoft (R) versión 19.41.34120 para x64
+      (C) Microsoft Corporation. Todos los derechos reservados.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Nota: inclusión del archivo: C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: inclusión del archivo: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilador de optimización de C/C++ de Microsoft (R) versión 19.41.34120 para x64
+      (C) Microsoft Corporation. Todos los derechos reservados.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Nota: inclusión del archivo: C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: inclusión del archivo: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xsfybf"
+      binary: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xsfybf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xsfybf'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_3362a\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_3362a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3362a.dir\\build
+        Building C object CMakeFiles/cmTC_3362a.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3362a.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-xsfybf --filter-prefix="Nota: inclusi¾n del archivo: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmEBC5.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_3362a.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3362a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3362a.dir\\objects1.rsp @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmED0E.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_3362a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_3362a.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3362a.dir/manifest.res CMakeFiles\\cmTC_3362a.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3362a.dir\\objects1.rsp /out:cmTC_3362a.exe /implib:cmTC_3362a.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-xsfybf\\cmTC_3362a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3362a.dir/intermediate.manifest CMakeFiles\\cmTC_3362a.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_3362a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_3362a.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3362a.dir/manifest.res CMakeFiles\\cmTC_3362a.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3362a.dir\\objects1.rsp /out:cmTC_3362a.exe /implib:cmTC_3362a.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-xsfybf\\cmTC_3362a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3362a.dir/intermediate.manifest CMakeFiles\\cmTC_3362a.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-juy2gg"
+      binary: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-juy2gg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-juy2gg'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_714d3\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_714d3.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_714d3.dir\\build
+        Building CXX object CMakeFiles/cmTC_714d3.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_714d3.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-juy2gg --filter-prefix="Nota: inclusi¾n del archivo: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmEE45.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_714d3.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_714d3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_714d3.dir\\objects1.rsp @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmEE85.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_714d3.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_714d3.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_714d3.dir/manifest.res CMakeFiles\\cmTC_714d3.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_714d3.dir\\objects1.rsp /out:cmTC_714d3.exe /implib:cmTC_714d3.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-juy2gg\\cmTC_714d3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_714d3.dir/intermediate.manifest CMakeFiles\\cmTC_714d3.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_714d3.dir/intermediate.manifest /out:CMakeFiles\\cmTC_714d3.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_714d3.dir/manifest.res CMakeFiles\\cmTC_714d3.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_714d3.dir\\objects1.rsp /out:cmTC_714d3.exe /implib:cmTC_714d3.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-juy2gg\\cmTC_714d3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_714d3.dir/intermediate.manifest CMakeFiles\\cmTC_714d3.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:635 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zklt98"
+      binary: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zklt98"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zklt98'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_eca36\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_eca36.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_eca36.dir\\build
+        Building C object CMakeFiles/cmTC_eca36.dir/test_mpi.c.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_eca36.dir\\test_mpi.c.obj.d --working-dir=C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zklt98 --filter-prefix="Nota: inclusi¾n del archivo: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmB195.tmp
+        test_mpi.c
+        Linking C executable cmTC_eca36.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_eca36.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_eca36.dir\\objects1.rsp @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmB1D5.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_eca36.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_eca36.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_eca36.dir/manifest.res CMakeFiles\\cmTC_eca36.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_eca36.dir\\objects1.rsp /out:cmTC_eca36.exe /implib:cmTC_eca36.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zklt98\\cmTC_eca36.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impi.lib C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impicxx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_eca36.dir/intermediate.manifest CMakeFiles\\cmTC_eca36.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_eca36.dir/intermediate.manifest /out:CMakeFiles\\cmTC_eca36.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_eca36.dir/manifest.res CMakeFiles\\cmTC_eca36.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_eca36.dir\\objects1.rsp /out:cmTC_eca36.exe /implib:cmTC_eca36.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zklt98\\cmTC_eca36.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impi.lib C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impicxx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_eca36.dir/intermediate.manifest CMakeFiles\\cmTC_eca36.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:635 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-guhra2"
+      binary: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-guhra2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-guhra2'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_f0485\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_f0485.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_f0485.dir\\build
+        Building CXX object CMakeFiles/cmTC_f0485.dir/test_mpi.cpp.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_f0485.dir\\test_mpi.cpp.obj.d --working-dir=C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-guhra2 --filter-prefix="Nota: inclusi¾n del archivo: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmB500.tmp
+        test_mpi.cpp
+        Linking CXX executable cmTC_f0485.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f0485.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f0485.dir\\objects1.rsp @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmB55F.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_f0485.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_f0485.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f0485.dir/manifest.res CMakeFiles\\cmTC_f0485.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f0485.dir\\objects1.rsp /out:cmTC_f0485.exe /implib:cmTC_f0485.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-guhra2\\cmTC_f0485.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impi.lib C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impicxx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f0485.dir/intermediate.manifest CMakeFiles\\cmTC_f0485.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_f0485.dir/intermediate.manifest /out:CMakeFiles\\cmTC_f0485.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f0485.dir/manifest.res CMakeFiles\\cmTC_f0485.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f0485.dir\\objects1.rsp /out:cmTC_f0485.exe /implib:cmTC_f0485.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-guhra2\\cmTC_f0485.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impi.lib C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impicxx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f0485.dir/intermediate.manifest CMakeFiles\\cmTC_f0485.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:635 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pw1moo"
+      binary: "C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pw1moo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pw1moo'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_64e79\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_64e79.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_64e79.dir\\build
+        Building CXX object CMakeFiles/cmTC_64e79.dir/test_mpi.cpp.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_64e79.dir\\test_mpi.cpp.obj.d --working-dir=C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pw1moo --filter-prefix="Nota: inclusi¾n del archivo: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmB658.tmp
+        test_mpi.cpp
+        Linking CXX executable cmTC_64e79.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_64e79.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_64e79.dir\\objects1.rsp @C:\\Users\\FING~1.LAB\\AppData\\Local\\Temp\\nmB6A7.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_64e79.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_64e79.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_64e79.dir/manifest.res CMakeFiles\\cmTC_64e79.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_64e79.dir\\objects1.rsp /out:cmTC_64e79.exe /implib:cmTC_64e79.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pw1moo\\cmTC_64e79.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impi.lib C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impicxx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_64e79.dir/intermediate.manifest CMakeFiles\\cmTC_64e79.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_64e79.dir/intermediate.manifest /out:CMakeFiles\\cmTC_64e79.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_64e79.dir/manifest.res CMakeFiles\\cmTC_64e79.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_64e79.dir\\objects1.rsp /out:cmTC_64e79.exe /implib:cmTC_64e79.lib /pdb:C:\\Users\\fing.labcom\\Documents\\Paralela\\prog_paralela_mpi\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pw1moo\\cmTC_64e79.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impi.lib C:\\Program Files (x86)\\Intel\\oneAPI\\mpi\\latest\\lib\\impicxx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_64e79.dir/intermediate.manifest CMakeFiles\\cmTC_64e79.dir/manifest.res
+        
+      exitCode: 0
+...

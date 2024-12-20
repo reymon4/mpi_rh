@@ -1,0 +1,105 @@
+"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PROJECT_TOP_LEVEL_INCLUDES=conan_provider.cmake -G "NMake Makefiles" -S C:\Users\fing.labcom\Documents\Paralela\prog_paralela_mpi -B C:\Users\fing.labcom\Documents\Paralela\prog_paralela_mpi\cmake-build-debug
+-- CMake-Conan: first find_package() found. Installing dependencies with Conan
+-- CMake-Conan: Checking if a default profile exists
+C:\Users\fing.labcom\.conan2\profiles\default
+-- CMake-Conan: cmake_system_name=Windows
+-- CMake-Conan: cmake_system_processor=x86_64
+-- CMake-Conan: CMake compiler=MSVC
+-- CMake-Conan: CMake compiler version=19.41.34120.0
+-- CMake-Conan: CMake compiler.runtime=dynamic
+-- CMake-Conan: [settings] compiler=msvc
+-- CMake-Conan: [settings] compiler.version=194
+-- CMake-Conan: [settings] compiler.runtime=dynamic
+-- CMake-Conan: Creating profile C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/conan_host_profile
+-- CMake-Conan: Profile: 
+[settings]
+arch=x86_64
+os=Windows
+compiler=msvc
+compiler.version=194
+compiler.runtime=dynamic
+compiler.cppstd=17
+build_type=Debug
+[conf]
+tools.cmake.cmaketoolchain:generator=NMake Makefiles
+tools.build:compiler_executables={"c":"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe","cpp":"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe","rc":"C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe"}
+
+-- CMake-Conan: Installing single configuration Debug
+-- CMake-Conan: conan install C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi -of=C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/conan --profile:host=default;--profile:host=C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/conan_host_profile;--profile:build=default;--build=missing
+
+======== Input profiles ========
+Profile host:
+[settings]
+arch=x86_64
+build_type=Debug
+compiler=msvc
+compiler.cppstd=17
+compiler.runtime=dynamic
+compiler.runtime_type=Debug
+compiler.version=194
+os=Windows
+[conf]
+tools.build:compiler_executables={'c': 'C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe', 'cpp': 'C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe', 'rc': 'C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe'}
+tools.cmake.cmaketoolchain:generator=NMake Makefiles
+
+Profile build:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=msvc
+compiler.cppstd=14
+compiler.runtime=dynamic
+compiler.runtime_type=Release
+compiler.version=194
+os=Windows
+
+
+======== Computing dependency graph ========
+Graph root
+    conanfile.py: C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi\conanfile.py
+Requirements
+    fmt/11.0.2#5c7438ef4d5d69ab106a41e460ce11f3 - Cache
+
+======== Computing necessary packages ========
+Requirements
+    fmt/11.0.2#5c7438ef4d5d69ab106a41e460ce11f3:ed24bd5ddcb539c4a46096000a2fbd622370d034#daef5c19d4bd3ab712d2adcf8af23b51 - Cache
+
+======== Installing packages ========
+fmt/11.0.2: Already installed! (1 of 1)
+WARN: deprecated: Usage of deprecated Conan 1.X features that will be removed in Conan 2.X:
+WARN: deprecated:     'cpp_info.names' used in: fmt/11.0.2
+
+======== Finalizing install (deploy, generators) ========
+conanfile.py: Writing generators to C:\Users\fing.labcom\Documents\Paralela\prog_paralela_mpi\cmake-build-debug\conan\build\Debug\generators
+conanfile.py: Generator 'CMakeDeps' calling 'generate()'
+conanfile.py: CMakeDeps necessary find_package() and targets for your CMakeLists.txt
+    find_package(fmt)
+    target_link_libraries(... fmt::fmt)
+conanfile.py: Calling generate()
+conanfile.py: Generators folder: C:\Users\fing.labcom\Documents\Paralela\prog_paralela_mpi\cmake-build-debug\conan\build\Debug\generators
+conanfile.py: CMakeToolchain generated: conan_toolchain.cmake
+conanfile.py: CMakeToolchain: Preset 'conan-debug' added to CMakePresets.json.
+    (cmake>=3.23) cmake --preset conan-debug
+    (cmake<3.23) cmake <path> -G "NMake Makefiles" -DCMAKE_TOOLCHAIN_FILE=generators\conan_toolchain.cmake  -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Debug
+conanfile.py: CMakeToolchain generated: C:\Users\fing.labcom\Documents\Paralela\prog_paralela_mpi\cmake-build-debug\conan\build\Debug\generators\CMakePresets.json
+conanfile.py: Generating aggregated env files
+conanfile.py: Generated aggregated env files: ['conanbuild.bat', 'conanrun.bat']
+Install finished successfully
+-- CMake-Conan: CONAN_GENERATORS_FOLDER=C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug/conan/build/Debug/generators
+-- CMake-Conan: CONANFILE=C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/conanfile.py
+-- Conan: Component target declared 'fmt::fmt'
+-- CMake-Conan: find_package(MPI) found, 'conan install' already ran
+-- Could NOT find MPI (missing: MPI_DIR)
+-- CMake-Conan: find_package(PkgConfig) found, 'conan install' already ran
+-- Found MPI_C: C:/Program Files (x86)/Intel/oneAPI/mpi/latest/lib/impi.lib (found version "3.1")
+-- Found MPI_CXX: C:/Program Files (x86)/Intel/oneAPI/mpi/latest/lib/impi.lib (found version "3.1")
+-- Found MPI: TRUE (found version "3.1")
+-- MPI FOUND
+-- MPI Version: 3.1
+-- MPI Include Path: C:/Program Files (x86)/Intel/oneAPI/mpi/latest/include;C:/Program Files (x86)/Intel/oneAPI/mpi/latest/include/mpi
+-- MPI Libraries: C:/Program Files (x86)/Intel/oneAPI/mpi/latest/lib/impi.lib;C:/Program Files (x86)/Intel/oneAPI/mpi/latest/lib/impicxx.lib
+-- MPI Compiler: C:/Program Files (x86)/Intel/oneAPI/mpi/latest/bin/mpicl.bat
+-- MPI Link Flags: 
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/fing.labcom/Documents/Paralela/prog_paralela_mpi/cmake-build-debug
